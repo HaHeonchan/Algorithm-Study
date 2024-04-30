@@ -30,7 +30,6 @@ def merge(low, mid, high):
     arr[low:high + 1] = U
 
 
-
 N = int(sys.stdin.readline())
 arr = []
 
@@ -41,3 +40,8 @@ for i in range(N):
 mergesort(0, N-1)
 for i in range(N):
     print(arr[i])
+
+
+#본래O(n^2)로 풀이해도 가능하지만
+#이번에는 특별히 배운것을 응용하기 위해 O(nlgn)으로 풀었다
+#하면서 후회는 되었지만 도움이 된 것 같다
