@@ -35,4 +35,3 @@ size = 2**N
 result = -1
 i = 0
 Z(0, 0, size)
-    
